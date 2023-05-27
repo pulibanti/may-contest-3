@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000;
+  font-family: "Ruda", sans-serif;
+  position: relative;
+}
+.para {
+  line-height: 4rem;
+  letter-spacing: 0.09rem;
+}
+.quata {
+  font-family: "Quattrocento", serif;
+}
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+.small-container {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  width: 100%;
+  padding: 0 3.2rem;
+  font-family: "Ruda", sans-serif;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.heading-desc {
+  line-height: 4rem;
+}
+/* logo */
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+  list-style: none;
+}
+.main-nav-links {
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* media-logos */
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #fff;
+}
+/* hero section */
+/* .background-img {
+  background-image: url(./pizza1\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+
+  opacity: 0.6;
+} */
+.hero {
+  position: relative;
+  max-width: 100%;
+}
+.background-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} */
+
+.hero-desc {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  max-width: 40vw;
+}
+.heading-primary {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.border {
+  background-color: #f24c4c;
+  max-width: 48.6rem;
+  height: 1.3rem;
+  margin-bottom: 5rem;
+}
+.heading-desc {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #fff;
+  max-width: 30vw;
+}
+/* .about1 {
+  background-color: #fff;
+} */
+.about-context {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2.4rem;
+  border-bottom: 5px solid red;
+}
+.border-top {
+  border-top: 3px solid red;
+  width: 70%;
+}
+.about-text {
+  color: white;
+  /* line-height: 1.5; */
+  /* letter-spacing: 0.5; */
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2.4rem;
+}
+.about-img img {
+  height: 45rem;
+  display: block;
+  align-self: center;
+  margin: 0 auto;
+}
+/* menu */
+.container {
+  color: #fff;
+  /* line-height: 1.5;
+  letter-spacing: 0.5; */
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2.4rem;
+}
+.flex-items {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 2.4rem;
+}
+.menu-text {
+  margin-bottom: 10rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+}
+.text h3 {
+  font-size: 2rem;
+
+  color: #f2c94c;
+}
+.text p {
+  font-size: 1.8rem;
+  /* line-height: 1.8; */
+}
+/* find us */
+.find-us-text p {
+  margin-bottom: 4.8rem;
+}
+.location,
+.phone {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 2.8rem;
+}
+/* .phone {
+  justify-content: flex-start;
+} */
+.find-us {
+  margin-bottom: 20rem;
+}
+/* contact */
+.contact {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5.4rem;
+  margin-bottom: 4.8rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2.4rem;
+  padding-right: 15rem;
+}
